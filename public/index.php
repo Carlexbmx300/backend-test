@@ -12,7 +12,7 @@ $userController = new UserController($saveUserUseCase);
 
 if ($_SERVER['REQUEST_URI'] === '/save-user' && $_SERVER['REQUEST_METHOD'] === 'POST') {
     $jsonData = file_get_contents('php://input');
-    $data = json_decode($jsonData, true);
+    $data = json_decode($jsonData, true); 
 
     $id = $data['id'] ?? '';
     $name = $data['name'] ?? '';
