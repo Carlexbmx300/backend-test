@@ -1,0 +1,17 @@
+{
+    "name": "carlo/prueba-tecnica-php-carlos-aguilar",
+    "require": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+             "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "carlosaguilarangulo",
+            "email": "caguilar@develoop.net"
+        }
+    ]
+}
